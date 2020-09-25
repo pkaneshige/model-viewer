@@ -1,8 +1,8 @@
-# Lab: Exploring the `<model-viewer>` Web Component
+# Lab: Exploring `<model-viewer>`
 
-## Summary
+View this exploration live: https://pkaneshige.github.io/model-viewer/
 
-## What is the `<model-viewer>` web component?
+### What is the `<model-viewer>` web component?
 
 The `<model-viewer>` web component enables web developers to add 3D models to websites without requiring an understanding of the underlying technologies and platforms.
 
@@ -13,7 +13,7 @@ Highlights of this web component include:
 - Supports augmented reality on some devices
 - Includes features for accessibility, rendering quality, and interactivity
 
-## Resources
+### Resources
 
 - https://web.dev/introducing-model-viewer/
 - https://modelviewer.dev
