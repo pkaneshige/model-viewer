@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exploring the Model Viewer Web Component</title>
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <!-- Import the model-viewer web component -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <!-- End model-viewer import -->
+  </head>
+  <body>
+    <section class="example product">
+      <div class="media">
+        <model-viewer
+          class="model"
+          src="./assets/models/chair.glb"
+          shadow-intensity="1"
+          ar
+          ar-scale="fixed"
+          camera-controls
+          alt="3D model of an Eames Lounge Chair and Ottoman"
+        >
+        </model-viewer>
+      </div>
+      <div class="details">
+        <h1 class="title">Eames Lounge Chair and Ottoman</h1>
+        <p class="designer">Designed by Charles and Ray Eames</p>
+        <h2 class="price">$5,495.00</h2>
+        <p class="description">Famously described as “a special refuge from the strains of modern living,” the Eames Lounge Chair and Ottoman is one of the most significant designs of the 20th century. Unparalleled craftsmanship and rigorous attention to detail made it a fixture in homes across the world.</p>
+        <button class="add-to-cart">Add to cart</button>
+      </div>
+    </section>
+  </body>
+</html>
